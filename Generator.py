@@ -10,10 +10,12 @@ if odpowiedz == 1:
     else:
         print("Podaj parzystą liczbę!")
 
-if odpowiedz == 2:
+elif odpowiedz == 2:
     if szerokosc % 2 == 0:
         for i in range(1, szerokosc + 1, 2):
             print((i * "*").center(szerokosc))
 
     else:
         print("Podaj parzystą liczbę!")
+else:
+    print("Podaj prawidłową opcję!")
